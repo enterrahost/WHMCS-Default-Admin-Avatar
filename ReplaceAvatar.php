@@ -19,7 +19,7 @@
 <?php
 
 add_hook('AdminAreaHeaderOutput', 1, function($vars) {
-    $customDefault = '/templates/TEMPLATENAME/img/avatar.png'; // Replace TEMPLATENAME with your template name and avatar.png with your preferred avatar image file.
+    $customDefault = 'https://URL/templates/TEMPLATENAME/img/avatar.png'; // Replace URL with your site address and TEMPLATENAME with your template name and avatar.png with your preferred avatar image file.
     return <<<HTML
     <script>
         document.addEventListener("DOMContentLoaded", function() {
